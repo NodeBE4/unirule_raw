@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>择优分配原理——第二届茅于轼学术思想传授班第二讲纪要（上）-天则经济研究所</title>
+<link type="text/css" rel="stylesheet" href="css/lib.css" />
+<link rel="stylesheet" href="/css/cui.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/menu.js"></script>
+
+
+<link type="text/css" rel="stylesheet" href="css/header.css" />
+<link type="text/css" rel="stylesheet" href="css/news.css" />
+<link type="text/css" rel="stylesheet" href="css/tzwhzd.css" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/jquery.SuperSlide.2.1.js"></script>
+<style type="text/css">
+.txtScroll-top{  position:relative;  }
+		.txtScroll-top .hd{ position:absolute;bottom:-50px;left:0; }
+		.txtScroll-top .hd .prev,.txtScroll-top .hd .next{ display:block;  width:51px; height:43px; float:right;  margin-top:20px;  overflow:hidden;
+			 cursor:pointer; background:url(/images/news/a-prev.jpg) no-repeat;}
+        .txtScroll-top .hd .prev{margin-left:97px;}
+		.txtScroll-top .hd .next{ background:url(/images/news/a-next.jpg) no-repeat;  }
+		.txtScroll-top .hd .prevStop{ background-position:-60px -100px;  }
+		.txtScroll-top .hd .nextStop{ background-position:-60px -140px;  }
+		.txtScroll-top .bd{ padding:15px;  }
+		.txtScroll-top .infoList li{  line-height:24px;   }
+
+    .zxdt ul li a{color:#333;}
+</style>
+</head>
+
+<body>
+<div id="hd_wh">
+    <div class="wp hd_top">
+         <div class="search tr">
+              <form action="/index.php" method="get">
+                    <label>搜索</label>
+                    <input name="a" type="hidden" value="search" />
+			              <input type="hidden" name="c" value="article"/>
+                    <input type="text" name="word"  class="inp" />
+                    <input type="submit" class="sub" value="" />
+              </form>
+         </div>
+         <div class="c"></div>
+         <div class="hd">
+              <div class="logo l"><a href=""><img src="/images/header/logo1.jpg" alt="" /></a></div>
+              <div class="nv r">
+                   <ul>
+    <ul class="mu mu2 MENU">
+         <li><a href="/index.php">首页</a></li>
+                 <li>
+                 <a href="/index.php?c=article&a=type&tid=187">关于天则</a>
+                 <dl>
+                     <dd><a href="/index.php?c=article&a=type&tid=187">天则简介</a></dd>
+                     <dd><a href="/index.php?c=article&a=type&tid=188">组织机构</a></dd>
+                     <dd><a href="/index.php?c=article&a=type&tid=189">天则简报</a></dd>
+                     <dd><a href="/index.php?c=article&a=type&tid=190">天则年鉴</a></dd>
+                     <dd class="MENU2">
+                     <a href="javascript:;">天则人</a>
+                     <dl style="display:none;">
+                                            <dd><a href="/index.php?c=article&a=type&tid=192">天则理事</a></dd>
+                                            <dd><a href="/index.php?c=article&a=type&tid=193">学术委员</a></dd>
+                                            <dd><a href="/index.php?c=article&a=type&tid=194">特约研究员</a></dd>
+                                            <dd><a href="/index.php?c=article&a=type&tid=195">天则员工</a></dd>
+                                           </dl>
+                     </dd>
+                 </dl>
+                 </li>
+                 <li><a href="/index.php?c=article&a=type&tid=137">联系天则</a></li>
+                 <li><a href="/index.php?c=article&a=type&tid=218">支持天则</a>
+                 <!--dl>
+                     <dd><a href="/index.php?c=article&a=type&tid=219">捐赠</a></dd>
+                     <dd><a href="/index.php?c=article&a=type&tid=220">捐赠信息公告</a></dd>
+                     <dd><a href="/index.php?c=article&a=type&tid=221">志愿者</a></dd>
+                     <dd><a href="/index.php?c=article&a=type&tid=222">天则之友</a></dd>
+                 </dl-->
+                 </li>
+                 <li><a href="http://english.unirule.cloud">English</a></li>
+             </ul>
+                   </ul>
+              </div>
+         </div>
+    </div>
+    <div class="c"></div>
+    <div class="snv fix">
+     <div class="wp">
+          <ul>
+                                 <li><a href="/index.php?c=article&a=type&tid=49">中心理事会</a></li>
+                                <li><a href="/index.php?c=article&a=type&tid=50">新闻与信息</a></li>
+                                <li><a href="/index.php?c=article&a=type&tid=51">观点</a></li>
+                                <li><a href="/index.php?c=article&a=type&tid=52">项目</a></li>
+                                <li><a href="/index.php?c=article&a=type&tid=53">天则网店</a></li>
+                       </ul>
+     </div>
+</div>
+</div>
+<div style="background:#F5F5F3;">
+  <div class="wp fix pt20">
+      <div id="content">
+      	<div class="content_left content_left1">
+          	<div class="zxdt">
+              	<ul class="title yy pl20">目&nbsp;&nbsp;录</ul>
+               <div class="c"></div>
+               <div class="txtScroll-top fix">
+            			<div class="hd">
+            				<a class="next"></a>
+            				<a class="prev"></a>
+            			</div>
+            			<div class="bd">
+            				<ul class="infoList">
+                                                 <li><a href="/index.php?c=article&id=3410">天则所邀请资中筠为教授耿丹名师大讲堂授课 </a> </li>
+		                                              <li><a href="/index.php?c=article&id=3386">“天则﹒茅于轼学术思想传授班”项目介绍 </a> </li>
+		                                              <li><a href="/index.php?c=article&id=2994">茅于轼：什么是正确的汇率——第二届茅于轼学术思想传授班第五讲纪要（下） </a> </li>
+		                                              <li><a href="/index.php?c=article&id=2993">茅于轼：财富创造和分配——第二届茅于轼学术思想传授班第五讲纪要（上） </a> </li>
+		                                              <li><a href="/index.php?c=article&id=2957">茅于轼：帕累托最优和帕累托改进——第二届茅于轼学术思想传授班第四讲纪要（下） </a> </li>
+		                                              <li><a href="/index.php?c=article&id=2956">茅于轼：数学改变经济学——第二届茅于轼学术思想传授班第四讲纪要（上） </a> </li>
+		                                              <li><a href="/index.php?c=article&id=2919">第二届茅于轼学术思想传授班第三讲纪要 </a> </li>
+		                                              <li><a href="/index.php?c=article&id=2903">一般均衡理论——第二届茅于轼学术思想传授班第二讲纪要（下） </a> </li>
+		                                              <li><a href="/index.php?c=article&id=2902">择优分配原理——第二届茅于轼学术思想传授班第二讲纪要（上） </a> </li>
+		                                 				</ul>
+            			</div>
+            		</div>
+
+<script type="text/javascript">
+jQuery(".txtScroll-top").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"top",vis:5});
+</script>
+              </div>
+          </div>
+          <div class="content_right content_right1">
+          <p class="year">
+       <a href="/index.php?c=article&a=type&tid=156&year=2020">2020</a><a href="/index.php?c=article&a=type&tid=156&year=2019">2019</a><a href="/index.php?c=article&a=type&tid=156&year=2018">2018</a><a href="/index.php?c=article&a=type&tid=156&year=2017">2017</a><a href="/index.php?c=article&a=type&tid=156&year=2016">2016</a><a href="/index.php?c=article&a=type&tid=156&year=2015">2015</a><a href="/index.php?c=article&a=type&tid=156&year=2014">2014</a><a href="/index.php?c=article&a=type&tid=156&year=2013">2013</a><a href="/index.php?c=article&a=type&tid=156&year=2012">2012</a>                 </p>
+           <div class="cont pt20">
+                  <div class="tit yy" style="font-size:24px;font-weight:normal;">培训</div>
+                  <h1 class="b mt10 mb20 fc0" style="font-size:26px;">择优分配原理——第二届茅于轼学术思想传授班第二讲纪要（上）</h1>
+                  <p class="">
+                  天则经济研究所 <span class="">2014-03-03</span>
+                  <span class="ml20"><script src="/index.php?c=article&a=hits&id=2902" type="text/javascript"></script></span>
+                  </p>
+                  <div class="cont body-text"><p>&nbsp;
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">茅于轼</span><span style="font-family:宋体;">老师提到择优分配是非常重要的一课，其中最重要的是边际分析。懂得边际分析可以帮助我们做出正确的决策。</span><span>1988</span><span style="font-family:宋体;">年，中央电视台组织了一次国际大专院校的辩论比赛，辩论的题目是“自然科学重要还是社会科学重要”？茅于轼老师担任了评分嘉宾。辩论双方是西安交大和新加坡理工大学。一方提出自然科学重要，但是论据只是指出没有自然科学不行；另一方提出社会科学重要，论据只是指出没有社会科学不行。茅于轼老师指出双方辩论用的方法是“有无分析”，如果一方光说没有社会科学不行，另一方也只说没有自然科学不行，这是“有”和“没有”的问题。一个社会怎么会没有自然科学或者社会科学呢？这就好比中国很多人说农业最重要，无农则不稳。没有农业这个国家不可能稳定，这句话很正确但却是句废话，这个社会怎么会没有农业呢？若实际情况农业生产过剩，大量的粮食供过于求，用“有无分析”得出的结论还是农业最重要，因为无农则不稳。</span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">辩论“是自然科学重要还是社会科学重要”这论题不应该用“有无分析”，而应该用“边际分析”。应该是在“</span><span>1998</span><span style="font-family:宋体;">年的新加坡”这个条件下，或是在“</span><span>1998</span><span style="font-family:宋体;">年的中国”这个条件下，得出是社会科学重要还是自然科学重要。是社会科学发展更为缺乏还是自然科学发展更为缺乏，是增加一点社会科学对社会的贡献更大还是增加一点自然科学对社会的贡献更大。拿当前的中国来讲，显然是社会科学不足，因为没有自由的讨论跟鉴别。</span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span style="font-family:宋体;">数学规划</span><span></span></b> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">数学规划就是用数学的方法求解最优。比如十字路口红绿灯的调换时间，我们可以调查东西南北四个方向的车流量，构造函数，求解一定总车流量下，四个方向车辆等待的总时间最少；比如，利用一块正方形的板做一个容积最大的敞口盒子，就可以通过构造函数，用微积分求导的方法来求得极大值；再比如周长一定的篱笆如何围成面积最大的图形，这个问题问的是什么样的函数特征使其面积最大，而不是问一个具体数值。同样的，在经济学领域中，人民币汇率调整就是这样一个极大化的泛函问题，是立刻调还是慢慢调，都是一个泛函问题。所有资源配置问题都可以简化成是一个约束条件下求最优化的问题，这也是茅于轼老师最初研究择优分配的研究想法。最一般的解决约束条件下的最优化问题是用拉格朗日乘数法（</span><span>Lagrange Multiplier Method</span><span style="font-family:宋体;">）求解。以上等等都是运用的数学规划原理。
+</p>
+<p style="text-indent:21pt;" class="MsoNormal" align="center">
+	<img alt="" src="/uploads/2014/03/031313497192.jpg" /></span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span style="font-family:宋体;">边际分析与最大化问题</span><span></span></b> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">边际分析大约是在</span><span>19</span><span style="font-family:宋体;">世纪</span><span>70</span><span style="font-family:宋体;">年代掀起的风潮，是现状分析。所以在“当下”做决策要用边际分析，而不能用“有无分析”或是“平均分析”。“平均分析”是事后的分析，是事后的平均，比如去年的</span><span>GDP</span><span style="font-family:宋体;">是多少、人均</span><span>GDP</span><span style="font-family:宋体;">是多少，这对当下的决策并没有决定性价值。</span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">茅于轼</span><span style="font-family:宋体;">老师举了养猪的例子，投入的饲料是成本，产出的猪肉是收益。在养猪的同时，我们会发现投入和产出并不是以固定增长比例上升的，而是随着每多投入一单位的饲料，单位产出是减少的，这就是收益递减规律。同样产水、产电都是遵循边际收益递减规律，其递减是因为投入是有成本的。这就说明投入是有成本的，要投到适合的量，而不是投入越多越好，问题是投到什么时候停止。
+</p>
+<p style="text-indent:21pt;" class="MsoNormal" align="center">
+	<img alt="" src="/uploads/2014/03/031314065250.jpg" /></span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">以养猪为例，养猪什么时候出栏为最优？养猪的投入</span><span>-</span><span style="font-family:宋体;">产出曲线表现为一条凹函数，横坐标为成本，纵坐标为收益。画一条过原点的</span><span>45</span><span style="font-family:宋体;">度射线，那么曲线与</span><span>45</span><span style="font-family:宋体;">度线相交的点为投入等于产出的点，不赚不赔，曲线在</span><span>45</span><span style="font-family:宋体;">度线上面的点则表现为投入大于产出，是赚钱的点，相反在</span><span>45</span><span style="font-family:宋体;">度线以下的点表现为投入小于产出，是赔钱的点。在上面这些赚钱的点中要找出赚钱最多的点就要用到边际分析，找一条</span><span>45</span><span style="font-family:宋体;">度线与曲线相切，这个切点就是赚钱最多的点，因为在这一点边际产出与边际投入相等。之前的点都表现为边际产出大于边际投入，之后的点则表现为边际产出小于边际投入，所以从边际上看，切点之后的点都是赔的。养猪的最佳屠宰时间就在这里，虽然再继续投入，猪还能长，但是这个“长”是赔钱的。</span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">同样，办企业的投入</span><span>-</span><span style="font-family:宋体;">产出也是同样的问题，此时此刻的决策要用边际分析。投入</span><span>1</span><span style="font-family:宋体;">单位钱是增加办公室面积，还是增加一个人？还是增加设备？还是搞营销？同样</span><span>1</span><span style="font-family:宋体;">单位钱，放在哪个部门最能赚钱？如果是营销能赚更多的钱，就投到营销。但是，投入到某个点的时候，边际产出就减小了，就不能再增加营销的投入了。只突出一方面，其他方面赶不上也不行。
+</p>
+<p style="text-indent:21pt;" class="MsoNormal" align="center">
+	<img alt="" src="/uploads/2014/03/031314245047.jpg" /></span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span style="font-family:宋体;">最优分配的问题</span><span></span></b> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">总资源一定，如何分配使产出为极大？土地，资金，化肥，电力，淡水等等都有分配问题。这个问题叫做条件抉择问题，是约束条件下的最优问题。比如化肥的分配问题，将一定量的化肥分配给两块地，怎样分配可以产粮最多？两块地的大小、土质不一样决定它们的投入产出比例是不一样的，当两块地的边际产出相等时总产量最大。在边际产出高的土地上多分配一点化肥，在边际产出低的土地上少分配一点化肥，这样不断的调整，直到两块土地的边际产出一样。</span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">再继续推广到</span><span>n</span><span style="font-family:宋体;">块土地，</span><span>n</span><span style="font-family:宋体;">公斤化肥，道理还是一样的，看每块土地投入的边际产出是否相等，不相等就把用于产出低的土地的化肥挪到产出高的土地上用，只要边际不相等就可以改进。当边际产出相等是，同样的化肥增产的粮食就是最多的。</span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span style="font-family:宋体;">如何达到等边际？</span><span></span></b> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">化肥的最优分配就是使得每块土地上化肥增产的边际产出相等，那么实际上如何达到等边际？计划经济最优化的方法是做实验，把每块土地的投入</span><span>-</span><span style="font-family:宋体;">产出关系算出来，理论上可以成立，但实际上不可行。有一个经济学的方法就是先规定一个等边际的量，比如要求每公斤化肥增产两公斤粮食，如果投入的一公斤化肥粮食增产的粮食小于两公斤，就不要用这个化肥；如果投入一公斤化肥增产粮食超过两公斤，就继续投，一直投到边际产出降到两公斤为止。所以这个办法能彻底解决化肥的最优分配问题，因为避免了不可实行的庞大计算，只要规定一个粮食换化肥的比例，农民就会依据利益最大化原则衡量投入和产出。而这个比例正是价格所起的作用。</span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">以什么标准换化肥，是按照化肥的多少来定的。如果有很多化肥，那么粮食与化肥的比价就会降低，如果化肥量少，那么粮食与化肥的比价就会升高。因此等边际值实际上就是化肥和粮食的比价。这个比价没有办法算出来，是试错的办法，就是供需均衡定价是一个最优价格。这也就是市场发现价格的过程。我们国家在</span><span>70-80</span><span style="font-family:宋体;">年代的时候化肥不是按照这个方法分配的，有很多优惠价，为国家交的粮多，就把化肥优惠卖给你。听起来很合理，但却破坏了最优分配，因为最优分配的标准是边际产出相等。如果不遵循这个道理，就会产生浪费。</span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">讨论化肥增产粮食的问题，如果化肥只用来增产粮食，只解决了粮食与化肥的比价问题，并没有解决粮食是什么价格。粮食的价格是否合理就要将最优分配用到一切商品上，用一般均衡解决价格问题。</span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span style="font-family:宋体;">用价格分配资源是最优的</span><span></span></b> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">按价格分配资源才能实现等边际，达到资源的最优分配。同样的道理，相同的商品形成了统一的价格才是最优分配。比如金融市场对资金的分配，资金的价格就是利息率，要把资金调到利息率高的地方，继续投入资金其利息率就会下降，利息率低的地方资金流出，其利息率就会上升，最后形成统一的利息率，这就是利息率的市场化。我们国家的金融市场，银行贷款的利息率是</span><span>7%</span><span style="font-family:宋体;">，高的民间借贷是</span><span>30-40%</span><span style="font-family:宋体;">，这就说明资金的配置存在巨大的浪费。从金融这方面看，我们国家有</span><span>48</span><span style="font-family:宋体;">万亿民间储蓄，一个百分点就是</span><span>4800</span><span style="font-family:宋体;">亿。我们国家的</span><span>GDP</span><span style="font-family:宋体;">是</span><span>55</span><span style="font-family:宋体;">万亿，如果把利息率调整提高一个百分点，能得到</span><span>4800</span><span style="font-family:宋体;">亿的产出，相当于</span><span>GDP</span><span style="font-family:宋体;">的</span><span>0.8%</span><span style="font-family:宋体;">。如果再把利息率提高，将银行贷款的利息率</span><span>7%</span><span style="font-family:宋体;">提高，把民间借贷</span><span>30%</span><span style="font-family:宋体;">降低，整个社会的产出就大幅度提高。它的结果将会引起结构的大调整，靠低利息率生存的企业都会关门，迫切需要资金的中小企业、民营企业会得到很大的发展。</span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">有人认为对于消费品的分配应该照顾穷人，穷人买的东西的价格应该低一些。光从消费品分配上看，这个想法是合理的。但是从收入这个角度看，一个人的收入分配与其贡献是挂钩的，贡献大收入多。穷人之所以穷是因为其贡献少，所以其消费也少。从经济学上讲，穷人和富人面对同样的价格是一个效率最高的分配方式，价格分配消费品是最优的。</span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span style="font-family:宋体;">均衡价格最优性与外部性</span><span></span></b> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">由于数学具有“放诸四海而皆准”的特性，在数学上加入经济学的几个假定得出的结论也十分可靠，只要假定没有被推翻。等边际的最优性是数学得出的结果，从等边际的最优性变成均衡价格的最优性，增加了两个条件：人是追求利益的和边际产出递减。只要这两个条件没有被推翻，均衡价格最优配置资源这个结论就不会错。</span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">均衡价格最优性也有例外的情况，在有负的外部性情况下，价格配置资源需要做调整。比如，用化肥增产粮食可能会破坏了土壤、环境，在考虑产粮食成本投入时并没有考虑土壤、环境的成本，这就是影响到第三者的外部性的问题。所以要在价格配置资源最优的基础上考虑少用一点化肥。</span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">另外一个外部性的例子就是教育，价格配置教育资源是非常有效的，但其外部性就是破坏了平等。单纯从效率来讲是合理的，但是从公平来讲就不合理。教育应该人人都有份，不能因为是否有钱就决定是否受好的教育。外部性的问题非常复杂，涉及到经济学、伦理学最基本的目标问题：追求效率还是追求公平。</span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">有人批评迷信价格是市场经济的原教旨主义，认为市场解决一切问题是原教旨主义。但是我们的市场经济肯定要考虑外部性问题，如果不考虑外部性，只认为资源配置最佳，确实变成原教旨主义了。</span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span style="font-family:宋体;">效率与公平</span><span></span></b> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">择优分配完全是讲效率，并不考虑分配的公平（或差别）。但是公平也是人们追求的目标，于是就发生效率和公平之间的矛盾，是为当今世界基本矛盾之一。比如美国发生占领华尔街的运动。平衡效率与公平这个问题的前景不是改变收入分配的原则，而是收入差别有限制的市场化。
+</p>
+<p style="text-indent:21pt;" class="MsoNormal" align="center">
+	<img alt="" src="/uploads/2014/03/031314402084.jpg" /></span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span style="font-family:宋体;">择优分配从静态到动态</span><span></span></b> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p style="text-indent:21pt;" class="MsoNormal">
+	<span style="font-family:宋体;">动态的最优问题比较复杂，不是求解一个数值，而是求解一个函数。例如一千米的篱笆围成什么样的形状面积最大。求解动态最优的问题是用变分法，其解就是欧拉方程（</span><span>Euler equation</span><span style="font-family:宋体;">）。例如，汇率调整问题，要求两年之内把汇率降低到某一数值，怎么调整使得</span><span>GDP</span><span style="font-family:宋体;">最大化。一步到位调到目标表面看起来最好，但是因为调整是有成本的，一步到位的调整会让很多企业关停并转，人员重新培训，消耗大量的成本。所以</span><span>80</span><span style="font-family:宋体;">年代研究价格如何调的问题也是如此，是一步到位还是慢慢调？动态最优分配的问题是经济学中比较前言的问题。</span> 
+</p>
+<p style="text-indent:21.1pt;" class="MsoNormal">
+	<b><span></span></b>
+</p>
+<p>
+	&nbsp;
+</p></p> </div>
+           </div>
+      <div class="h20"></div><div class="h20"></div>
+
+    <div class="tc prev">
+      	           <span class="r"><a href="/index.php?c=article&id=2903"><img src="/images/tzwhzd/next.jpg" alt="" /></a></span>      </div>
+      </div>
+      </div>
+  </div>
+</div>
+ <div class="bg_grey fix">
+        <div class="wp content_third">
+
+
+                 <ul style="width:90px;">
+                     <li class="title"><a href="/index.php?c=article&a=type&tid=3">新闻中心</a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=27">人物资讯</a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=29">天则影响</a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=28">书讯</a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=31">活动</a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=96">预告</a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=97">机会</a></li>
+                 </ul>
+
+                 <ul style="width:100px;">
+                     <li class="title"><a href="/index.php?c=article&a=type&tid=8">双周论坛</a><li>
+                     <li><a href="/index.php?c=article&a=type&tid=42">论坛实录</a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=28">视频</a></li>
+                 </ul>
+
+                 <ul style="width:120px;">
+                     <li class="title"><a href="/index.php?c=article&a=type&tid=25">天则公共报告</a><li>
+                                              <li><a href="/index.php?c=article&a=type&tid=44">宪政框架</a></li>
+                                              <li><a href="/index.php?c=article&a=type&tid=45">改革方案</a></li>
+                                              <li><a href="/index.php?c=article&a=type&tid=46">公共政策</a></li>
+                                              <li><a href="/index.php?c=article&a=type&tid=47">企业观察</a></li>
+                                              <li><a href="/index.php?c=article&a=type&tid=48">法律原则</a></li>
+                                       </ul>
+                 <ul style="width:110px;">
+                 <li class="title"><a href="/index.php?c=article&a=type&tid=26">天则学术</a><li>
+                                              <li><a href="/index.php?c=article&a=type&tid=55">出版物</a></li>
+                                              <li><a href="/index.php?c=article&amp;a=type&amp;tid=76">制度经济学</a></li>
+                                              <li><a href="/index.php?c=article&a=type&tid=57">宏观经济学</a></li>
+                                              <li><a href="/index.php?c=article&a=type&tid=136">公共治理</a></li>
+                                              <li><a href="/index.php?c=article&amp;a=type&amp;tid=101&amp;year=2014">天则书品</a></li>
+                                       </ul>
+
+                 <ul style="width:100px;">
+                 <li class="title"><a href="/index.php?c=article&a=type&tid=6">天则观点</a></li>
+                     	<li><a href="/index.php?c=article&a=type&tid=38">天则评论</a></li>
+                     	<li><a href="/index.php?c=article&a=type&tid=184">天则论坛</a></li>
+                     	<li><a href="/index.php?c=article&a=type&tid=185">天则沙龙</a></li>
+                     	<li><a href="">微博</a></li>
+                     	<li><a href="">博客</a></li>
+                 </ul>
+
+                 <ul style="width:170px;">
+                      <li class="title"><a href="/index.php?c=article&a=type&tid=4">天则机构</a></li>
+                     	<li><a href="http://www.china-review.com">中评网</a></li>
+                     	<li><a href="http://www.ccppp.org">公用事业研究中心</a></li>
+                     	<li><a href="/index.php?c=article&a=type&tid=50">文化与制度研究中心</a></li>
+                     	<li><a href="/index.php?c=article&a=type&tid=223">中国企业家研究中心</a></li>
+                     	<li><a href="">广州天则区域发展研究中心</a></li>
+                 </ul>
+
+                 <ul style="width:110px;">
+                      <li class="title"><a href="/index.php?c=article&a=type&tid=251">天则咨询</a></li>
+                                            <li><a href="/index.php?c=article&a=type&tid=252">公共政策与制度</a></li>
+                                            <li><a href="/index.php?c=article&a=type&tid=253">地区发展研究</a></li>
+                                            <li><a href="/index.php?c=article&a=type&tid=254">产业研究</a></li>
+                                            <li><a href="/index.php?c=article&a=type&tid=255">咨询精品</a></li>
+                                            <li><a href="/index.php?c=article&a=type&tid=270">下载中心</a></li>
+                                       </ul>
+                 <ul style="width:60px;">
+                      <li class="title"><a href="/index.php?c=article&a=type&tid=272">视频</a></li>
+                 </ul>
+
+
+        </div>
+        <div class="c"></div>
+</div>
+<div class="c"></div>
+    <div id="footer">
+    	<div class="footer_flink fix">
+           <div class="wp">
+            	<ul>友情链接</ul>
+                <ol>
+                                                     <li class="l"><a href="http://www.crcpp.org/" target="_blank">中国经济体制改革研究会公共政策研究中心</a></li>
+                                                     <li class="r"><a href="http://www.udrc.com.cn/" target="_blank">广州天则区域发展研究中心</a></li>
+                                                     <li class="l"><a href="http://www.humanrights.cn/" target="_blank">中国人权</a></li>
+                                                     <li class="r"><a href="http://www.infobank.cn/" target="_blank">中国资讯行</a></li>
+                                                     <li class="l"><a href="http://www.soshoo.com/" target="_blank">搜数网</a></li>
+                                                     <li class="r"><a href="http://www.ccer.edu.cn/" target="_blank">中国经济研究中心</a></li>
+                                                     <li class="l"><a href="http://www.50forum.org.cn/" target="_blank">中国经济50人论坛</a></li>
+                                                     <li class="r"><a href="http://www.ectime.com.cn/" target="_blank">商业时代</a></li>
+                                                     <li class="l"><a href="http://www.cenet.org.cn/cn/" target="_blank">中国经济学教育科研网</a></li>
+                                                     <li class="r"><a href="http://www.bijiao.org/" target="_blank">《比较》</a></li>
+                                                     <li class="l"><a href="http://www.cec.zju.edu.cn/" target="_blank">浙江大学经济学院</a></li>
+                                                     <li class="r"><a href="http://www.drcnet.com.cn/" target="_blank">国务院发展研究中心</a></li>
+                                                     <li class="l"><a href="http://www.huayilawyers.com/" target="_blank">北京市华一律师事务所</a></li>
+                                                     <li class="r"><a href="http://www.china-review.com/" target="_blank">中评网</a></li>
+                                                     <li class="l"><a href="http://www.ccppp.org/" target="_blank">天则公用事业研究中心</a></li>
+                                </ol>
+            </div>
+        </div>
+        <style type="text/css">
+        .tongji {text-align:center; color:#fff; padding:20px 0 0 0;}
+        .tongji a {color:#fff;}
+        </style>
+        <div class="footer_info fix">
+             <div class="wp">
+              	<ol></ol>
+               <div class="h20"></div>
+               <div class="fd-copy tc">
+                    <img src="images/fd-copy.jpg" alt="" />
+               </div>
+                  <dl>
+                     <div class="tongji">
+                     <script src="https://s19.cnzz.com/z_stat.php?id=1263057985&web_id=1263057985" language="JavaScript"></script>
+                     </div>
+                  </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/slides.min.jquery.js"></script>
+<script>
+		$(function(){
+
+			$('#slides_two').slides({
+				preload: true,
+				hoverPause: true,
+				generateNextPrev: true,
+				pagination: true,
+				generatePagination: true,
+				effect: 'slide',
+				play: 3000,
+				pause: 2000
+			});
+
+		});
+</script>
+</body>
+</html>
