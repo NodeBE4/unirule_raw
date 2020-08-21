@@ -1,0 +1,1193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>天则十维空间仿真规划模型</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="/css/cui.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/menu.js"></script>
+
+
+<link type="text/css" rel="stylesheet" href="css/lib.css" />
+<link type="text/css" rel="stylesheet" href="css/header.css" />
+<link type="text/css" rel="stylesheet" href="css/news.css" />
+<script type="text/javascript" src="/js/jquery.SuperSlide.2.1.js"></script>
+<style type="text/css">
+.txtScroll-top{  position:relative;  }
+		.txtScroll-top .hd{ position:absolute;bottom:-30px;left:0; }
+		.txtScroll-top .hd .prev,.txtScroll-top .hd .next{ display:block;  width:38px; height:27px; float:right;  margin-top:10px;  overflow:hidden;
+			 cursor:pointer; background:url(/images/news/a-prev.jpg) no-repeat;border:1px solid #000;}
+        .txtScroll-top .hd .prev{margin-left:97px;border-right:0;}
+		.txtScroll-top .hd .next{ background:url(/images/news/a-next.jpg) no-repeat;border-right:0;  }
+		.txtScroll-top .hd .prevStop{ background-position:-60px -100px;  }
+		.txtScroll-top .hd .nextStop{ background-position:-60px -140px;  }
+		.txtScroll-top .bd{  }
+		.txtScroll-top .infoList li{  line-height:24px;   }
+   .snv1 li img {
+vertical-align: middle;
+}
+
+</style>
+</head>
+
+<body>
+<div id="hd1">
+    <div class="wp">
+         <div class="search tr">
+              <form action="/index.php" method="get">
+                    <label>搜索</label>
+                    <input name="a" type="hidden" value="search" />
+			              <input type="hidden" name="c" value="article"/>
+                    <input type="text" name="word"  class="inp" />
+                    <input type="submit" class="sub" value="" />
+              </form>
+         </div>
+         <div class="c"></div>
+         <div class="hd">
+              <div class="logo l"><a href="/index.php?c=article&a=type&tid=3"><img src="/images/header/news_logo.jpg" alt="" /></a></div>
+              <div class="nv r">
+                   <ul>
+    <ul class="mu mu2 MENU">
+         <li><a href="/index.php">首页</a></li>
+                 <li>
+                 <a href="/index.php?c=article&a=type&tid=187">关于天则</a>
+                 <dl>
+                     <dd><a href="/index.php?c=article&a=type&tid=187">天则简介</a></dd>
+                     <dd><a href="/index.php?c=article&a=type&tid=188">组织机构</a></dd>
+                     <dd><a href="/index.php?c=article&a=type&tid=189">天则简报</a></dd>
+                     <dd><a href="/index.php?c=article&a=type&tid=190">天则年鉴</a></dd>
+                     <dd class="MENU2">
+                     <a href="javascript:;">天则人</a>
+                     <dl style="display:none;">
+                                            <dd><a href="/index.php?c=article&a=type&tid=192">天则理事</a></dd>
+                                            <dd><a href="/index.php?c=article&a=type&tid=193">学术委员</a></dd>
+                                            <dd><a href="/index.php?c=article&a=type&tid=194">特约研究员</a></dd>
+                                            <dd><a href="/index.php?c=article&a=type&tid=195">天则员工</a></dd>
+                                           </dl>
+                     </dd>
+                 </dl>
+                 </li>
+                 <li><a href="/index.php?c=article&a=type&tid=137">联系天则</a></li>
+                 <li><a href="/index.php?c=article&a=type&tid=218">支持天则</a>
+                 <!--dl>
+                     <dd><a href="/index.php?c=article&a=type&tid=219">捐赠</a></dd>
+                     <dd><a href="/index.php?c=article&a=type&tid=220">捐赠信息公告</a></dd>
+                     <dd><a href="/index.php?c=article&a=type&tid=221">志愿者</a></dd>
+                     <dd><a href="/index.php?c=article&a=type&tid=222">天则之友</a></dd>
+                 </dl-->
+                 </li>
+                 <li><a href="http://english.unirule.cloud">English</a></li>
+             </ul>
+                   </ul>
+              </div>
+         </div>
+    </div>
+    <div class="c"></div>
+</div>
+<div class="snv1 fix">
+     <div class="wp">
+          <ul>
+                     <li><a href="/index.php?c=article&a=type&tid=27"><img src="/images/news/rwzx.jpg" alt="人物资讯" /></a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=29"><img src="/images/news/tzyx.jpg" alt="天则影响" /></a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=28"><img src="/images/news/sx.jpg" alt="书讯" /></a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=31"><img src="/images/news/hd.jpg" alt="活动" /></a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=96"><img src="/images/news/yg.jpg" alt="预告" /></a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=97"><img src="/images/news/xx.jpg" alt=信息"" /></a></li>
+          </ul>
+     </div>
+</div>
+<div class="bg_zs">
+     <div class="wp">
+          <div class="tit-f30">天则影响</div>
+          <ul class="ul-year">
+       <li><a href="/index.php?c=article&a=type&tid=29&year=2020">2020</a></li><li><a href="/index.php?c=article&a=type&tid=29&year=2019">2019</a></li><li><a href="/index.php?c=article&a=type&tid=29&year=2018">2018</a></li><li><a href="/index.php?c=article&a=type&tid=29&year=2017">2017</a></li><li><a href="/index.php?c=article&a=type&tid=29&year=2016">2016</a></li><li><a href="/index.php?c=article&a=type&tid=29&year=2015">2015</a></li><li><a href="/index.php?c=article&a=type&tid=29&year=2014">2014</a></li><li><a href="/index.php?c=article&a=type&tid=29&year=2013">2013</a></li><li><a href="/index.php?c=article&a=type&tid=29&year=2012">2012</a></li>          </ul>
+     </div>
+</div>
+<div style="background:#F5F5F3;">
+<div class="wp fix pb20">
+  <div id="content">
+    <div class="content_left">
+      <div class="zxdt">
+        <ul class="title">
+          最新动态
+        </ul>
+        <div class="c"></div>
+        <div class="txtScroll-top">
+            			<div class="hd">
+            				<a class="next"></a>
+            				<a class="prev"></a>
+            			</div>
+            			<div class="bd">
+            				<ul class="infoList">
+                                                   <li><a href="/index.php?c=article&id=4829">清算公告 </a> </li>
+                                                   <li><a href="/index.php?c=article&id=4828">关于天则所被取缔和中评网公司被吊销的声明 </a> </li>
+                                                   <li><a href="/index.php?c=article&id=4827">《中评周刊》第115期 </a> </li>
+                                                   <li><a href="/index.php?c=article&id=4826">《中国政府行政部门配置资源的效率与公平研究》（英文版）出版 </a> </li>
+                                                   <li><a href="/index.php?c=article&id=4825">《我国医疗制度的理论分析、效果评价与改革方案》（第三版）发布 </a> </li>
+                                                   <li><a href="/index.php?c=article&id=4824">《中评周刊》第114期 </a> </li>
+                                    				</ul>
+            			</div>
+            		</div>
+
+<script type="text/javascript">
+jQuery(".txtScroll-top").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"top",vis:5});
+</script>
+      </div>
+      <div class="h20"></div>
+      <div class="shuxun">
+        <ul class="title">
+          书讯
+        </ul>
+        <div class="c"></div>
+               <div class="txtScroll-top txtScroll-top1">
+            			<div class="hd">
+            				<a class="next"></a>
+            				<a class="prev"></a>
+            			</div>
+            			<div class="bd">
+            				<ul class="infoList">
+                                                 <li><a href="/index.php?c=article&id=4826"><img src="" alt="" /> </a> </li>
+                                               <li><a href="/index.php?c=article&id=4756"><img src="" alt="" /> </a> </li>
+                                               <li><a href="/index.php?c=article&id=4305"><img src="/uploads/2016/10/131010238921.jpg" alt="" /> </a> </li>
+                                               <li><a href="/index.php?c=article&id=3908"><img src="/uploads/2015/09/290920473816.jpg" alt="" /> </a> </li>
+                                               <li><a href="/index.php?c=article&id=3632"><img src="/uploads/2015/04/071525178449.jpg" alt="" /> </a> </li>
+                                  				</ul>
+            			</div>
+            		</div>
+              </div>
+          </div>
+<script type="text/javascript">
+jQuery(".txtScroll-top1").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"top",vis:3});
+</script>
+      </div>
+    <div class="content_details">
+      <ol class="position">
+        天则影响      </ol>
+      <div class="h"></div>
+                  <h1>天则十维空间仿真规划模型</h1>
+                  <div class="h"></div>
+                  <p style="font-size:18px;">
+                  天则经济研究所 <span class="ml20">2014-07-07</span>
+                  <span class="ml20">累计浏览<script src="/index.php?c=article&a=hits&id=3127" type="text/javascript"></script>次</span>
+                  </p>
+                  <div class="h"></div>
+           <div class="body-text"><p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>一、简述</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21pt;">
+	本模型全称“天则空间经济学与制度经济学十维仿真与规划模型”，是盛洪教授在天则所研究团队的配合下开发出来的一个以经济学为基础的数学及计算机模型。只要一个地区的发展是以市场制度为基础，本模型就可以模拟该地区未来十年、二十年以至更长时间的发展规模、经济密度、产业分布、资源限制、生态保护、制度效应和政策效果，及其演变过程；为地区制定经济发展战略提供参照，并能直接应用于地区经济发展规划，人口规划，土地规划，产业规划，乡镇规划，和水资源与生态规划等规划工作。
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21pt;">
+	迄今为止，这一模型已经应用于深圳市前海合作区的产业规划，和山西省阳城县的经济发展规划。
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>二、理论基础</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21pt;">
+	这一模型的基础，是盛洪教授将克鲁格曼教授等人以生产为基础的空间经济学改进为以交易为基础的空间经济学，以人口密度及对应的市场网络外部性和拥挤外部性为主要变量，模拟个人与企业为追逐交易红利而决策，形成一地区或城市发展的规模与密度的均衡，并依集聚程度分布产业。
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21pt;">
+	制度经济学是天则所的优势所在，盛洪教授曾赴芝加哥大学与科斯教授探讨制度经济学理论。因制度经济学以交易为单位，恰与以交易为基础的空间经济学的研究单位一致，所以可以将两种理论无缝对接，对空间数据进行制度分析。
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>三、十个维度</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>1</b><b>．&nbsp;&nbsp;</b><b>三维空间</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21pt;">
+	本模型的特点是，除了二维平面结构外，还有第三维的描述，即通过经济密度，包括人口密度，集聚租密度，拥挤外部性密度，GDP密度，以至污染密度，等等的描述，给出地区和城市的更有效率的第三维空间分布。
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;">
+	<br />
+</p>
+<div style="white-space:normal;text-align:center;">
+	<strong style="line-height:1.5;">某城市</strong><span style="line-height:1.5;"><strong>20</strong></span><strong style="line-height:1.5;">平方公里三维分布图</strong> 
+</div>
+<div style="white-space:normal;text-align:center;">
+	<img src="/uploads/2014/07/181211501613.jpg" alt="" style="line-height:1.5;" /> 
+</div>
+<p style="white-space:normal;">
+	<br />
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>2</b><b>．&nbsp;&nbsp;</b><b>时间维度</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21pt;">
+	本模型将人口密度变化与交易红利变化的相应关系，转变为经济收益对人口流动的引力和动力，进一步转变为时间因素，而不是简单的直线展开的时间。所以可以更接近现实地描述经济发展的变动过程。
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-align:center;">
+	<strong>某城市</strong><strong>2012</strong><strong>至</strong><strong>2026</strong><strong>年经济量变动</strong> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-align:center;">
+	<strong><img src="/uploads/2014/07/181212273185.gif" alt="" /><br />
+</strong> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>3</b><b>．&nbsp;&nbsp;</b><b>第五维：产业</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21pt;">
+	依据不同产业的集聚程度和经济规模，给出服务型产业在空间上的分布。特别地，本模型还包括消费者不在本地的电子商务。
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-align:center;">
+	<strong>某城区服务产业分布图</strong> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-align:center;">
+	<strong><img src="/uploads/2014/07/181212588801.png" alt="" /><br />
+</strong> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>4</b><b>．&nbsp;&nbsp;</b><b>第六维：制度与政策</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21pt;">
+	以交易费用为分析制度和政策的基础变量，对制度变革的效应进行预估，对政策，包括减免税负，房租补贴，支持产业联盟，补贴交易费用，政府打地区广告等的效果进行测试。
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;">
+	<strong>某城市政策测试数据</strong> 
+</p>
+<p class="MsoNormal" style="white-space:normal;">
+	<strong></strong> 
+</p>
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" style="border:none;">
+	<tbody>
+		<tr>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">&nbsp;</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-family:宋体;">原初</span></b><b>GDP</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-family:宋体;">初始推动政策</span></b><b>GDP</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-family:宋体;">补贴交易费用</span></b><b>GDP</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-family:宋体;">补贴房租</span></b><b>GDP</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-family:宋体;">协会节约交易费用</span></b><b>GDP</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b><span style="font-family:宋体;">所有政策累加</span></b><b>GDP</b> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b>2012</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">0.45</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">0.45</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">0.47</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">0.48</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">0.46</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">1</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b>2013</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">8</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">12</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">13</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">8</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">8</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">13</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b>2014</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">38</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">50</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">51</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">41</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">39</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">54</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b>2015</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">111</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">133</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">136</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">117</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">114</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">145</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b>2016</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">247</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">279</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">285</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">259</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">251</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">304</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b>2017</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">458</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">500</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">513</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">481</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">467</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">546</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b>2018</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">753</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">801</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">824</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">788</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">767</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">877</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b>2019</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">1128</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">1212</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">1215</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">1183</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">1150</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">1280</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b>2020</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">1572</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">1626</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">1672</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">1649</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">1602</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">1780</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b>2021</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">2066</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">2110</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">2173</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">2158</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">2101</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">2309</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b>2022</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">2569</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">2604</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">2622</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">2684</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">2613</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">2750</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b>2023</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3046</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3083</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3105</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3183</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3099</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3255</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b>2024</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3453</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3469</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3496</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3604</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3513</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3664</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b>2025</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3744</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3750</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3784</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3907</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3808</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3962</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<b>2026</b> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3875</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3877</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3914</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">4040</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">3940</span> 
+				</p>
+			</td>
+			<td width="80" style="border:1pt solid windowtext;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span "="">4096</span> 
+				</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<div style="white-space:normal;">
+	<strong><strong style="line-height:1.5;"></strong></strong> 
+</div>
+<p style="white-space:normal;">
+	<br />
+</p>
+<p class="MsoNormal" style="white-space:normal;text-align:center;">
+	<strong>某城市政策测试图</strong> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-align:center;">
+	<img src="/uploads/2014/07/181214078675.gif" alt="" /> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>5</b><b>．&nbsp;&nbsp;</b><b>第七维：自然资源和人文资源</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21pt;">
+	将区域内的自然资源和人文资源的分布数据填入模型，用资源的租金率和吸引系数描述资源，整合进整个模型，并使资源对人群分布和产业分布的影响与交易红利共同发生作用。
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;">
+	特殊地，是旅游资源的分布和影响。
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-align:center;">
+	<strong>某地区</strong><strong>100</strong><strong>平方公里旅游资源与产业分布图</strong> 
+</p>
+<p class="MsoNormal" style="white-space:normal;">
+	<br />
+</p>
+<div style="white-space:normal;text-align:center;">
+	<strong style="line-height:1.5;"><img src="/uploads/2014/07/181214392600.png" alt="" /></strong> 
+</div>
+<span style="line-height:1.5;white-space:normal;text-indent:21pt;"> 
+<div style="text-align:center;">
+	<img src="/uploads/2014/07/181214585409.gif" alt="" style="line-height:1.5;text-indent:21pt;" />&nbsp;<span style="line-height:1.5;text-indent:21pt;">旅游产业</span> 
+</div>
+</span><span style="white-space:normal;"></span> 
+<p style="white-space:normal;">
+	<br />
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>6</b><b>．&nbsp;&nbsp;</b><b>第八维：现有的和未来的生产企业</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21pt;">
+	生产企业有着与服务型企业不同的特性，其集聚程度并不决定于交易，且存在着工业增加值，所以要对其集聚因素进行另一维描述，且可根据已有工业园分布安排其分布，将已有和未来的生产企业整合到这个以交易为基础的模型中。
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;">
+	<br />
+</p>
+<div style="white-space:normal;text-align:center;">
+	<strong style="line-height:1.5;">某地区</strong><span style="line-height:1.5;"><strong>100</strong></span><strong style="line-height:1.5;">平方公里工业与农业分布图</strong> 
+</div>
+<strong style="white-space:normal;"> 
+<div style="text-align:center;">
+	<strong style="line-height:1.5;"><img src="/uploads/2014/07/181215286814.png" alt="" /></strong> 
+</div>
+</strong><span style="line-height:1.5;white-space:normal;text-indent:21pt;"> 
+<div style="text-align:center;">
+	<span style="line-height:1.5;text-indent:21pt;"><img src="/uploads/2014/07/181215569823.gif" alt="" />&nbsp;工业</span><span style="line-height:1.5;text-indent:21pt;">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<img src="/uploads/2014/07/181215463718.gif" alt="" /></span><span style="line-height:1.5;text-indent:21pt;">农业</span> 
+</div>
+</span><span style="white-space:normal;"></span> 
+<p style="white-space:normal;">
+	<br />
+</p>
+<p class="MsoNormal" style="white-space:normal;text-align:center;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>7</b><b>．&nbsp;&nbsp;</b><b>第九维：乡镇</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21pt;">
+	以县为单位的战略和规划，还可细化到乡镇。即乡镇的人口，GDP，产业分布等，也可预估不同乡镇的发展特性和乡镇间的结构。
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;">
+	<br />
+</p>
+<div style="white-space:normal;text-align:center;">
+	<strong style="line-height:1.5;">某县乡镇</strong><span style="line-height:1.5;"><strong>GDP</strong></span><strong style="line-height:1.5;">分布图</strong> 
+</div>
+<strong style="white-space:normal;"> 
+<div style="text-align:center;">
+	<strong style="line-height:1.5;"><img src="/uploads/2014/07/181216467838.jpg" alt="" /></strong> 
+</div>
+</strong><span style="white-space:normal;"></span> 
+<p style="white-space:normal;">
+	<br />
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>8</b><b>．&nbsp;&nbsp;</b><b>第十维：水资源和生态环境</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21pt;">
+	可在对水资源供给量估计的基础上，可对不同路径的经济发展所消耗的水资源进行数量分析，预测水资源限制下的发展规模和时间，并提出解决水资源限制的方案。
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21pt;">
+	可依据工业分布和人口分布，在模型中描述污染源的地区分布，估计污染损失，处理污染的成本及投资金额，并估计绿色GDP。
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;">
+	<br />
+</p>
+<div style="white-space:normal;text-align:center;">
+	<strong style="line-height:1.5;">某地区污染源及其污染程度分布图</strong> 
+</div>
+<strong style="white-space:normal;"> 
+<div style="text-align:center;">
+	<strong style="line-height:1.5;"><img src="/uploads/2014/07/181217305308.jpg" alt="" /></strong> 
+</div>
+</strong><span style="white-space:normal;"></span> 
+<p style="white-space:normal;">
+	<br />
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p>
+<p class="MsoNormal" style="white-space:normal;text-indent:21.1pt;">
+	<b>&nbsp;</b> 
+</p> </div>
+      <ol class="share">
+        <!-- JiaThis Button BEGIN -->
+        <div id="ckepop"> <a href="" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a> <span class="jiathis_separator">|</span> <a class="jiathis_button_icons_1"></a> <a class="jiathis_button_icons_2"></a> <a class="jiathis_button_icons_3"></a> <a class="jiathis_button_icons_4"></a> </div>
+        <script type="text/javascript" src="http://v2.jiathis.com/code/jia.js" charset="utf-8"></script>
+        <!-- JiaThis Button END -->
+      </ol>
+
+    <div class="h20"></div>
+    <div class="tc prev">
+      	 <span class="l"><a href="/index.php?c=article&id=2934"><img src="/images/tzwhzd/prev.jpg" alt="" /></a></span>           <span class="r"><a href="/index.php?c=article&id=3860"><img src="/images/tzwhzd/next.jpg" alt="" /></a></span>      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="h20"></div>
+ <div class="bg_grey fix">
+        <div class="wp content_third">
+
+
+                 <ul style="width:90px;">
+                     <li class="title"><a href="/index.php?c=article&a=type&tid=3">新闻中心</a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=27">人物资讯</a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=29">天则影响</a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=28">书讯</a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=31">活动</a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=96">预告</a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=97">机会</a></li>
+                 </ul>
+
+                 <ul style="width:100px;">
+                     <li class="title"><a href="/index.php?c=article&a=type&tid=8">双周论坛</a><li>
+                     <li><a href="/index.php?c=article&a=type&tid=42">论坛实录</a></li>
+                     <li><a href="/index.php?c=article&a=type&tid=28">视频</a></li>
+                 </ul>
+
+                 <ul style="width:120px;">
+                     <li class="title"><a href="/index.php?c=article&a=type&tid=25">天则公共报告</a><li>
+                                              <li><a href="/index.php?c=article&a=type&tid=44">宪政框架</a></li>
+                                              <li><a href="/index.php?c=article&a=type&tid=45">改革方案</a></li>
+                                              <li><a href="/index.php?c=article&a=type&tid=46">公共政策</a></li>
+                                              <li><a href="/index.php?c=article&a=type&tid=47">企业观察</a></li>
+                                              <li><a href="/index.php?c=article&a=type&tid=48">法律原则</a></li>
+                                       </ul>
+                 <ul style="width:110px;">
+                 <li class="title"><a href="/index.php?c=article&a=type&tid=26">天则学术</a><li>
+                                              <li><a href="/index.php?c=article&a=type&tid=55">出版物</a></li>
+                                              <li><a href="/index.php?c=article&amp;a=type&amp;tid=76">制度经济学</a></li>
+                                              <li><a href="/index.php?c=article&a=type&tid=57">宏观经济学</a></li>
+                                              <li><a href="/index.php?c=article&a=type&tid=136">公共治理</a></li>
+                                              <li><a href="/index.php?c=article&amp;a=type&amp;tid=101&amp;year=2014">天则书品</a></li>
+                                       </ul>
+
+                 <ul style="width:100px;">
+                 <li class="title"><a href="/index.php?c=article&a=type&tid=6">天则观点</a></li>
+                     	<li><a href="/index.php?c=article&a=type&tid=38">天则评论</a></li>
+                     	<li><a href="/index.php?c=article&a=type&tid=184">天则论坛</a></li>
+                     	<li><a href="/index.php?c=article&a=type&tid=185">天则沙龙</a></li>
+                     	<li><a href="">微博</a></li>
+                     	<li><a href="">博客</a></li>
+                 </ul>
+
+                 <ul style="width:170px;">
+                      <li class="title"><a href="/index.php?c=article&a=type&tid=4">天则机构</a></li>
+                     	<li><a href="http://www.china-review.com">中评网</a></li>
+                     	<li><a href="http://www.ccppp.org">公用事业研究中心</a></li>
+                     	<li><a href="/index.php?c=article&a=type&tid=50">文化与制度研究中心</a></li>
+                     	<li><a href="/index.php?c=article&a=type&tid=223">中国企业家研究中心</a></li>
+                     	<li><a href="">广州天则区域发展研究中心</a></li>
+                 </ul>
+
+                 <ul style="width:110px;">
+                      <li class="title"><a href="/index.php?c=article&a=type&tid=251">天则咨询</a></li>
+                                            <li><a href="/index.php?c=article&a=type&tid=252">公共政策与制度</a></li>
+                                            <li><a href="/index.php?c=article&a=type&tid=253">地区发展研究</a></li>
+                                            <li><a href="/index.php?c=article&a=type&tid=254">产业研究</a></li>
+                                            <li><a href="/index.php?c=article&a=type&tid=255">咨询精品</a></li>
+                                            <li><a href="/index.php?c=article&a=type&tid=270">下载中心</a></li>
+                                       </ul>
+                 <ul style="width:60px;">
+                      <li class="title"><a href="/index.php?c=article&a=type&tid=272">视频</a></li>
+                 </ul>
+
+
+        </div>
+        <div class="c"></div>
+</div>
+<div class="c"></div>
+    <div id="footer">
+    	<div class="footer_flink fix">
+           <div class="wp">
+            	<ul>友情链接</ul>
+                <ol>
+                                                     <li class="l"><a href="http://www.crcpp.org/" target="_blank">中国经济体制改革研究会公共政策研究中心</a></li>
+                                                     <li class="r"><a href="http://www.udrc.com.cn/" target="_blank">广州天则区域发展研究中心</a></li>
+                                                     <li class="l"><a href="http://www.humanrights.cn/" target="_blank">中国人权</a></li>
+                                                     <li class="r"><a href="http://www.infobank.cn/" target="_blank">中国资讯行</a></li>
+                                                     <li class="l"><a href="http://www.soshoo.com/" target="_blank">搜数网</a></li>
+                                                     <li class="r"><a href="http://www.ccer.edu.cn/" target="_blank">中国经济研究中心</a></li>
+                                                     <li class="l"><a href="http://www.50forum.org.cn/" target="_blank">中国经济50人论坛</a></li>
+                                                     <li class="r"><a href="http://www.ectime.com.cn/" target="_blank">商业时代</a></li>
+                                                     <li class="l"><a href="http://www.cenet.org.cn/cn/" target="_blank">中国经济学教育科研网</a></li>
+                                                     <li class="r"><a href="http://www.bijiao.org/" target="_blank">《比较》</a></li>
+                                                     <li class="l"><a href="http://www.cec.zju.edu.cn/" target="_blank">浙江大学经济学院</a></li>
+                                                     <li class="r"><a href="http://www.drcnet.com.cn/" target="_blank">国务院发展研究中心</a></li>
+                                                     <li class="l"><a href="http://www.huayilawyers.com/" target="_blank">北京市华一律师事务所</a></li>
+                                                     <li class="r"><a href="http://www.china-review.com/" target="_blank">中评网</a></li>
+                                                     <li class="l"><a href="http://www.ccppp.org/" target="_blank">天则公用事业研究中心</a></li>
+                                </ol>
+            </div>
+        </div>
+        <style type="text/css">
+        .tongji {text-align:center; color:#fff; padding:20px 0 0 0;}
+        .tongji a {color:#fff;}
+        </style>
+        <div class="footer_info fix">
+             <div class="wp">
+              	<ol></ol>
+               <div class="h20"></div>
+               <div class="fd-copy tc">
+                    <img src="images/fd-copy.jpg" alt="" />
+               </div>
+                  <dl>
+                     <div class="tongji">
+                     <script src="https://s19.cnzz.com/z_stat.php?id=1263057985&web_id=1263057985" language="JavaScript"></script>
+                     </div>
+                  </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
